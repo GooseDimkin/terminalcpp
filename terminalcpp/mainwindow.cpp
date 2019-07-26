@@ -9,6 +9,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    QPixmap pix("C:/Img/Меню/LogoInLoginMenu.png");
+    ui->label_pic->setPixmap(pix.scaled(235,235,Qt::KeepAspectRatio));
 }
 
 MainWindow::~MainWindow()

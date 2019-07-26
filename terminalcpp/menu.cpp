@@ -26,6 +26,7 @@ Menu::Menu(QWidget *parent) : QWidget(parent), ui(new Ui::Menu)
 
     int w2 = ui->pushButton->width();
     int h2 = ui->pushButton->height();
+
     ui->pushButton->setIcon(QIcon("C:/Img/Меню/1.png"));
     ui->pushButton->setIconSize(QSize(w2, h2));
     ui->pushButton_2->setIcon(QIcon("C:/Img/Меню/2.png"));

@@ -20,6 +20,10 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_pushButton_39_clicked();
+
+    void on_pushButton_37_clicked();
+
 private:
     Ui::Welcome *ui;
 };
